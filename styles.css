@@ -64,6 +64,10 @@ body{
     height: 65vh;
 }
 
+#services{
+    background-color: #EBEBEB;
+}
+
 .navbar-brand{
     margin-right: 1rem;
     font-size: 1.25rem;

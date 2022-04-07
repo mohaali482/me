@@ -61,7 +61,7 @@ body{
 
 
 #about{
-    height: 65vh;
+    height: inherit;
 }
 
 .navbar-brand{
@@ -294,6 +294,7 @@ div.container{
 .contact-info{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin: 0;
 }
 

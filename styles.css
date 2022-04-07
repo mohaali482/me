@@ -306,6 +306,11 @@ a svg{
     background-color: #EBEBEB;
 }
 
+.image img{
+    height:350px;
+}
+
+
 
 @media (max-width: 810px) {
     .toggle-button{
@@ -341,6 +346,10 @@ a svg{
 
     .centered-items{
         flex-direction: column;
+    }
+    
+    .image img{
+        height:200px;
     }
 
 }

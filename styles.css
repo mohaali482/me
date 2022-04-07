@@ -64,10 +64,6 @@ body{
     height: 65vh;
 }
 
-#services{
-    background-color: #EBEBEB;
-}
-
 .navbar-brand{
     margin-right: 1rem;
     font-size: 1.25rem;
@@ -99,6 +95,7 @@ body{
 }
 
 .toggle-button:hover,.nav-link:hover{
+    border-radius: 5%;
     background-color: rgba(246, 197, 1,.5);
 }
 
@@ -143,9 +140,9 @@ article{
     font-size: 2.5rem;
 }
 
+
 .btn{
     color: white;
-    margin-bottom: 7rem !important;
     padding: .5rem 1rem;
     font-size: 1.25rem;
     border-radius: .3rem;
@@ -160,6 +157,7 @@ article{
 
 .btn:hover{
     background-color: #F6C501;
+    color: rgb(33, 37, 41);
 }
 
 .centered-items{
@@ -287,11 +285,6 @@ div.container{
 }
 
 
-.btn:hover{
-    background-color: rgba(246, 197, 1,.5);
-}
-
-
 .align-center{
     display: flex;
     align-items: center;
@@ -301,10 +294,15 @@ div.container{
 .contact-info{
     display: flex;
     justify-content: space-around;
+    margin: 0;
 }
 
 a svg{
     margin-right: 10px  ;
+}
+
+#services{
+    background-color: #EBEBEB;
 }
 
 

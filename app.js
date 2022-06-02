@@ -67,6 +67,10 @@ scrollBtn.addEventListener('click',()=>{
 
 let count = 0
 
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 var prevSlide = () => {
     if(count > 0) {
       count--
@@ -76,6 +80,7 @@ var prevSlide = () => {
         count = images.length-1
         change(count)
     }
+    await sleep(2000)
 }
 
 
@@ -88,6 +93,7 @@ var nextSlide = () => {
         count = 0
         change(count)
     }
+    await sleep(2000)
 }
 
 

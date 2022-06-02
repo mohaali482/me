@@ -71,7 +71,7 @@ async function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-var prevSlide = () => {
+async function prevSlide () {
     if(count > 0) {
       count--
       change(count)
@@ -84,7 +84,7 @@ var prevSlide = () => {
 }
 
 
-var nextSlide = () => {
+async function nextSlide () {
     if(count < images.length-1) {
       count++
       change(count)

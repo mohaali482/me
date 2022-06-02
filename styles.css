@@ -186,6 +186,7 @@ article{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width:inherit;
 }
 
 .center{

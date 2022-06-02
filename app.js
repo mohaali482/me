@@ -67,7 +67,7 @@ scrollBtn.addEventListener('click',()=>{
 
 let count = 0
 
-function sleep(ms) {
+async function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
